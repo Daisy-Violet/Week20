@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    h1, label, #title{
+        text-align: center;
+        font-family: monospace;
+        font-style: italic;
+        font-weight:bolder;
+    }
+    h1 {
+        margin: 5vh auto;
+    }
+    label {
+        font-size: large;
+    }
+    img {
+        width: 60%;
+        margin-bottom: 2.5%;
+        box-shadow: 0 5px 10px gray;
+    }
+    .film {
+        box-shadow: 0 10px 30px gray;
+        padding: 2.5%;
+        margin: 3% auto;
+        text-align: center;
+        width: 25%;
+        border-radius: 10px;
+    }
+    #filmContainer {
+        max-width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }    
